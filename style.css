@@ -1,66 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(205, 196, 196);
+}
+
 .container {
-    display: flex;
-    justify-content: space-around;
-    font-family: sans-serif;
-    margin-top: 100px;
+    width: 1300px;
+    height: 500px;
+    margin: 100px auto;
 
 }
+
+.items {
+    margin: 10px 20px;
+    width: 280px;
+    height: 325px;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    border: 40px solid black;
+    border-left-style: none;
+    border-right-style: none;
+    padding: 20px 30px;
+    background-color: #ffffff;
+
+}
+
 
 
 .box1 {
-    background-color: #f67e49;
-    width: 280px;
-    height: 320px;
-    text-align: center;
-    border-radius: 15px;
+    border-color: #f67e49;
 }
 
 .box2 {
-    background-color: #e4709f;
-    width: 280px;
-    height: 320px;
-    text-align: center;
-    border-radius: 15px;
+    border-color: #e4709f;
 }
 
 .box3 {
-    background-color: #8671ba;
-    width: 290px;
-    height: 320px;
-    text-align: center;
-    border-radius: 15px;
+    border-color: #8671ba;
+
 }
 
 .box4 {
-    background-color: #5596e9;
-    width: 280px;
-    height: 320px;
-    text-align: center;
-    border-radius: 15px;
-}
-
-.box-item-1 {
-    background-color: #ffffff;
-    margin: 40px 0;
-    padding: 10px 30px 15px 30px;
-}
-
-.box-item-2 {
-    background-color: #ffffff;
-    margin: 40px 0;
-    padding: 10px 30px 15px 30px;
-}
-
-.box-item-3 {
-    background-color: #ffffff;
-    margin: 40px 0;
-    padding: 10px 30px 15px 30px;
-}
-
-.box-item-4 {
-    background-color: #ffffff;
-    margin: 40px 0;
-    padding: 10px 30px 15px 30px;
+    border-color: #5596e9;
 }
 
 .fa-globe {
@@ -85,18 +70,29 @@
 
 }
 
-.box-heading-1{
+.box-heading-1 {
+    padding: 20px 0;
     color: #f67e49;
 }
 
-.box-heading-2{
+.box-heading-2 {
+    padding: 20px 0;
     color: #e4709f;
 }
 
-.box-heading-3{
+.box-heading-3 {
+    padding: 20px 0;
     color: #8671ba;
 }
 
-.box-heading-4{
+.box-heading-4 {
+    padding: 20px 0;
     color: #5596e9;
+}
+
+.items:hover{
+    box-shadow: 10px 20px 30px gray;
+    width: 285px;
+    height: 329px;
+    cursor: pointer;
 }
